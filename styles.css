@@ -160,7 +160,7 @@ button {
     color: #858688;
 }
 .header-main {
-    background: url(header-background-image.png) center;
+    background: url(assets/header-background-image.png) center;
     height: 66vh;
     display: flex;
     justify-content: center;

@@ -19,7 +19,7 @@ aside a:hover{
 .header {
     padding: 52px 52px 0 51px;
 }
-.header-nav {
+.header-navigation {
     margin-top: 18.8px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -40,7 +40,6 @@ h1 {
     position: relative;
     left: -21px;
 }
-
 .nav-bar {
     grid-area: nav;
     margin-top: 13px;
@@ -49,16 +48,13 @@ h1 {
     position: relative;
     right: 7px;
 }
-
 .nav-bar ul li:not(:first-child) {
     margin-left: 3.1%;
     letter-spacing: 0.2px;
 }
-
 .nav-bar ul li:nth-child(n+4) {
     margin-left: 21px;
 }
-
 .nav-bar a:hover {
     position: relative;
     top: -1px;
@@ -67,24 +63,20 @@ h1 {
     transition: 0.2s all ease;
     text-decoration: line-through;
 }
-
 .log-btns {
     grid-area: btns;
     align-self: center;
     padding-left: 15%;
     margin-top: -6px;
 }
-
 button {
     border: none;
     background: none;
     font-weight: bold;
 }
-
 .log-in {
     color: black;
 }
-
 .log-in span {
     margin-left: 6px;
     font-size: 15px;

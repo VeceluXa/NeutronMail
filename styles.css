@@ -50,7 +50,7 @@ h1 {
 }
 .nav-bar ul li:not(:first-child) {
     margin-left: 3.1%;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.2чёpx;
 }
 .nav-bar ul li:nth-child(n+4) {
     margin-left: 21px;
@@ -83,7 +83,6 @@ button {
     word-spacing: 1px;
     letter-spacing: 0.8px;
 }
-
 .log-in i {
     color: #5b4295;
     font-size: 15px;
@@ -96,13 +95,11 @@ button {
     border-radius: 5px;
     box-shadow: 0px 3px 5px 10px #5b4295;
 }
-
 .log-in:hover i {
     color: white;
     cursor: pointer;
     font-size: 15px;
 }
-
 .sign-up {
     position: relative;
     top: 2px;
@@ -113,7 +110,6 @@ button {
     border-radius: 10rem;
     box-shadow: 0 10px 20px 0px #7384bb;
 }
-
 .sign-up span {
     position: relative;
     top: -2px;
@@ -124,7 +120,6 @@ button {
     letter-spacing: 0.4px;
     color: white;
 }
-
 .sign-up:hover {
     cursor: pointer;
     background-image: none;
@@ -132,7 +127,6 @@ button {
     border: none;
     box-shadow: none;
 }
-
 .sign-up:hover span {
     color: white;
     text-shadow: 0px 1px 1px white;
@@ -141,55 +135,46 @@ button {
     border-radius: 5px;
     box-shadow: 0px 3px 5px 10px #451a6b;
 }
-
 .language-list {
     grid-area: lang;
-    margin-left: 50px;
+    margin-left: 18px;
     margin-top: 2px;
     font-size: 14px;
     letter-spacing: 0.8px;
     color: #a3a3a3;
     transition: 0.2s all ease;
 }
-
 .language-list>input {
     display: none;
 }
-
 .language-controls :nth-child(n+2) {
-    margin-left: 12px;
+    margin-left: 10px;
     letter-spacing: 0.1px;
 }
-
 .language-controls :nth-child(n+2)::before {
     content: " /  ";
     position: relative;
-    right: 6px;
+    right: 5px;
 }
-
 .language-controls :hover::before {
     color: #858688;
-    font-weight: 400;
 }
-
-.language-controls label:hover,
-#language1:checked~.language-controls label:nth-of-type(1),
-#language2:checked~.language-controls label:nth-of-type(2),
-#language3:checked~.language-controls label:nth-of-type(3),
-#language4:checked~.language-controls label:nth-of-type(4) {
-    cursor: pointer;
-    font-weight: 800;
-    color: #959595;
-    border-bottom: 1px solid #959595;
-    transform: translate(0px, 3px);
-    transition: 0.2s all ease;
+.header-main {
+    background: url(header-background-image.png) center;
+    height: 66vh;
+    display: flex;
+    justify-content: center;
 }
-
-.language-controls label:hover::before,
-#language1:checked~.language-controls label:nth-of-type(1)::before,
-#language2:checked~.language-controls label:nth-of-type(2)::before,
-#language3:checked~.language-controls label:nth-of-type(3)::before,
-#language4:checked~.language-controls label:nth-of-type(4)::before {
-    font-weight: 400;
-    color: #a3a3a3;
+.header-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 116px;
+    margin-left: 1px;
+    color: #454545;
+}
+.header-layout h2 {
+    font-size: 60px;
+    word-spacing: 1px;
+    letter-spacing: 1.7px;
 }

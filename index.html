@@ -9,33 +9,30 @@
 </head>
 <body>
     <header class="header">
-        <h1>
-            neutron<span class="color-word">Mail</span>
-        </h1>
-        <div class="header-menu">
-            <nav class="nav-header-menu">
+        <div class="header-nav">
+
+            <h1>
+                neutronMail
+            </h1>
+
+            <input type="checkbox" class="head-btn" id="nav-b">
+            <label for="nav-b"><span class="btn-for-nav"></span></label>
+
+            <nav class="nav-bar">
                 <ul>
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#security">Security</a>
-                    </li>
-                    <li>
-                        <a href="#blog">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#careers">Careers</a>
-                    </li>
-                    <li>
-                        <a href="#support">Support</a>
-                    </li>
-                    <li>
-                        <a href="#donate">Donate</a>
-                    </li>
+                    <li><a>About</a></li>
+                    <li><a>Security</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Careers</a></li>
+                    <li><a>Support</a></li>
+                    <li><a>Donate</a></li>
                 </ul>
             </nav>
-            <div class="header-authentication">
+
+            <input type="checkbox" class="head-btn" id="log-b">
+            <label for="log-b"><span class="btn-for-log"></span></label>
+
+            <div class="log-btns">
                 <button class="log-in">
                     <i class="fas fa-sign-in-alt"></i>
                     <span>Log in</span>
@@ -44,9 +41,13 @@
                     <span>Sign up</span>
                 </button>
             </div>
-        </div>
-        <div class="header-mail-language">
-            <input type="radio" name="language" id="language1" checked>
+
+            <input type="checkbox" class="head-btn" id="lang-b">
+            <label for="lang-b"><span class="btn-for-lang"></span></label>
+
+            <div class="language-list">
+
+                <input type="radio" name="language" id="language1" checked>
                 <input type="radio" name="language" id="language2">
                 <input type="radio" name="language" id="language3">
                 <input type="radio" name="language" id="language4">
@@ -57,6 +58,9 @@
                     <label for="language3">Italian</label>
                     <label for="language4">Polish</label>
                 </div>
+
+            </div>
+
         </div>
     </header>
 

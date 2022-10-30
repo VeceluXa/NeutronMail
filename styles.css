@@ -1,3 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: TW-R;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+main a:hover, 
+footer a:hover,
+aside a:hover{
+    transform: scale(1.05);
+    color: tomato;
+}
+.head-btn{
+    display: none;
+}
+.header {
+    padding: 52px 52px 0 51px;
+}
+.header-nav {
+    margin-top: 18.8px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(56px, auto);
+    grid-template-areas: ". hd hd . nav nav nav nav nav btns btns btns"
+        ". lang lang lang lang lang lang lang lang lang lang lang";
+
+}
+.header li {
+    display: inline;
+}
 h1 {
     grid-area: hd;
     font-family: TW-B;
@@ -7,14 +40,8 @@ h1 {
     position: relative;
     left: -21px;
 }
-.color-word {
-    font-family: TW-B;
-    color: #5b4295;
-}
-.header {
-    padding: 52px 52px 0 51px;
-}
-.nav-header-menu {
+
+.nav-bar {
     grid-area: nav;
     margin-top: 13px;
     transition: 0.2s all ease;
@@ -22,14 +49,17 @@ h1 {
     position: relative;
     right: 7px;
 }
-.nav-header-menu ul li:not(:first-child) {
+
+.nav-bar ul li:not(:first-child) {
     margin-left: 3.1%;
     letter-spacing: 0.2px;
 }
-.nav-header-menu ul li:nth-child(n+4) {
+
+.nav-bar ul li:nth-child(n+4) {
     margin-left: 21px;
 }
-.nav-header-menu a:hover {
+
+.nav-bar a:hover {
     position: relative;
     top: -1px;
     cursor: pointer;
@@ -37,20 +67,31 @@ h1 {
     transition: 0.2s all ease;
     text-decoration: line-through;
 }
+
+.log-btns {
+    grid-area: btns;
+    align-self: center;
+    padding-left: 15%;
+    margin-top: -6px;
+}
+
 button {
     border: none;
     background: none;
     font-weight: bold;
 }
+
 .log-in {
     color: black;
 }
+
 .log-in span {
     margin-left: 6px;
     font-size: 15px;
     word-spacing: 1px;
     letter-spacing: 0.8px;
 }
+
 .log-in i {
     color: #5b4295;
     font-size: 15px;
@@ -69,6 +110,7 @@ button {
     cursor: pointer;
     font-size: 15px;
 }
+
 .sign-up {
     position: relative;
     top: 2px;
@@ -79,6 +121,7 @@ button {
     border-radius: 10rem;
     box-shadow: 0 10px 20px 0px #7384bb;
 }
+
 .sign-up span {
     position: relative;
     top: -2px;
@@ -89,6 +132,7 @@ button {
     letter-spacing: 0.4px;
     color: white;
 }
+
 .sign-up:hover {
     cursor: pointer;
     background-image: none;
@@ -96,15 +140,17 @@ button {
     border: none;
     box-shadow: none;
 }
+
 .sign-up:hover span {
     color: white;
     text-shadow: 0px 1px 1px white;
     background: #451a6b;
     border: 1px #451a6b solid;
     border-radius: 5px;
-    box-shadow: 0px 3px 5px 9px #451a6b;
+    box-shadow: 0px 3px 5px 10px #451a6b;
 }
-.header-mail-language {
+
+.language-list {
     grid-area: lang;
     margin-left: 50px;
     margin-top: 2px;
@@ -113,19 +159,45 @@ button {
     color: #a3a3a3;
     transition: 0.2s all ease;
 }
-.header-mail-language>input {
+
+.language-list>input {
     display: none;
 }
+
 .language-controls :nth-child(n+2) {
     margin-left: 12px;
     letter-spacing: 0.1px;
 }
+
 .language-controls :nth-child(n+2)::before {
     content: " /  ";
     position: relative;
     right: 6px;
 }
+
 .language-controls :hover::before {
     color: #858688;
     font-weight: 400;
+}
+
+.language-controls label:hover,
+#language1:checked~.language-controls label:nth-of-type(1),
+#language2:checked~.language-controls label:nth-of-type(2),
+#language3:checked~.language-controls label:nth-of-type(3),
+#language4:checked~.language-controls label:nth-of-type(4) {
+    cursor: pointer;
+    font-weight: 800;
+    color: #959595;
+    border-bottom: 1px solid #959595;
+    transform: translate(0px, 3px);
+    transition: 0.2s all ease;
+}
+
+.language-controls label:hover::before,
+#language1:checked~.language-controls label:nth-of-type(1)::before,
+#language2:checked~.language-controls label:nth-of-type(2)::before,
+#language3:checked~.language-controls label:nth-of-type(3)::before,
+#language4:checked~.language-controls label:nth-of-type(4)::before {
+    font-weight: 400;
+    color: #a3a3a3;
 }

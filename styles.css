@@ -253,7 +253,7 @@ button {
     position: relative;
     font-size: 20px;
 }
-footer:hover{
+footer a:hover{
     transform: scale(1.05);
     color: rgb(126, 27, 14);
 }

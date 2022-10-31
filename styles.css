@@ -161,7 +161,7 @@ button {
 .language-controls :hover::before {
     color: #858688;
 }
-.header-main {
+.section-heading {
     background: url(assets/header-background-image.png) center;
     height: 66vh;
     display: flex;

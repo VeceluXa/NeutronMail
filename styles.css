@@ -7,9 +7,9 @@ a {
     text-decoration: none;
     color: black;
 }
-header a:hover{
+aside a:hover{
     transform: scale(1.05);
-    color: rgb(14, 11, 111);
+    color: tomato;
 }
 .head-btn{
     display: none;
@@ -255,5 +255,5 @@ button {
 }
 footer a:hover{
     transform: scale(1.05);
-    color: rgb(53, 180, 25);
+    color: rgb(105, 255, 71);
 }

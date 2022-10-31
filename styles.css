@@ -7,7 +7,9 @@ a {
     text-decoration: none;
     color: black;
 }
-header a:hover{
+main a:hover, 
+footer a:hover,
+aside a:hover{
     transform: scale(1.05);
     color: tomato;
 }
@@ -252,8 +254,4 @@ button {
 .google-button i {
     position: relative;
     font-size: 20px;
-}
-footer a:hover{
-    transform: scale(1.05);
-    color: rgb(126, 27, 14);
 }

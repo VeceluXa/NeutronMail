@@ -257,6 +257,9 @@ footer a:hover{
     transform: scale(1.05);
     color: tomato;
 }
+.privacy {
+    text-align: right
+}
 .contacts a{
     color: black;
     font-weight: bold;
@@ -264,4 +267,11 @@ footer a:hover{
 .footer-menu h1{
     color: black;
     font-weight: bold; 
+}
+.contacts{
+    position: absolute;
+    left: 2vw;
+    background: white;
+    border-left: 1px solid gray;
+    padding: 0px 20px;
 }

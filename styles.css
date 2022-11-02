@@ -15,6 +15,8 @@
   src: url("../assets/fonts/Malaga.otf");
 }
 
+
+
 * {
     padding: 0;
     margin: 0;
@@ -186,6 +188,7 @@ button {
 .section-heading {
     background: url(assets/header-background-image.png) center;
     height: 66vh;
+    padding-bottom: 270px;
     display: flex;
     justify-content: center;
 }
@@ -644,6 +647,10 @@ h3 {
     box-shadow: 0 0 10px grey;
 }
 
+.section-companies {
+    z-index: 3;
+}
+
 .list-companies a {
     display: inherit;
     width: 100%;
@@ -697,9 +704,11 @@ h3 {
 }
 
 .slider {
-    margin-top: 100px;
+    margin-top: 55px;
     position: relative;
-    margin-left: 300px;
+    width: auto;
+    height: 30px;
+    margin-left: 50px;
     display: inline-flex;
 }
 
@@ -744,4 +753,114 @@ h3 {
     font-size: 16px;
     color: #727272;
     margin-top: 10px;
+}
+
+.section-download {
+    justify-content:right;
+    text-align: right;
+    z-index: 3;
+    width: 100%;
+    height: 300px;
+    padding-top: 300px;
+    padding-bottom: 100px;
+    background-image: url(assets/laptop.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+.download-content {
+    margin-left: 500px;
+    margin-right: 800px;
+    padding-bottom: 150px;
+    /* width: 400px; */
+}
+
+.download-content p {
+    color: #959393;
+    font-size: 16px;
+}
+
+.download-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: right;
+    height: 55px;
+}
+
+.app-store {
+    width: 180px;
+    background-image: url(assets/app-store.png);
+}
+
+.play-store {
+    width: 180px;
+    margin-left: 20px;
+    background-image: url(assets/play-store.png);
+}
+
+.download-buttons a:hover {
+    box-shadow: 0 0 20px grey;
+}
+
+.section-donate {
+    border-top: 1px solid #B9B9B9;
+    margin-left: 400px;
+}
+
+.donate-wrap {
+    margin-left: 200px;
+    padding-top: 50px;
+    width: 700px;
+    text-align: center;
+}
+
+.donate-wrap h3 {
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.donate-wrap p {
+    font-size: 29px;
+    color: #7C7C7C;
+}
+
+.donate-buttons {
+    display: flex;
+    margin: 30px;
+}
+
+.button {
+    width: 400px;
+    margin-left: 50px;
+    background: linear-gradient(90deg, #646c92, #63668e 25%, #625785 50%, #614075 75%, #5f2e69);
+    box-shadow: 0 2px 4px 1px #666d9f, 0 10px 12px 2px #8a9bc2;
+    padding: 15px;
+    border-radius: 40px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+}
+
+.button:hover {
+    /* height: 100px; */
+    box-shadow: 0 3px 5px 1px #666d9f, 0 11px 13px 3px #8a9bc2;
+}
+
+.img-button {
+    margin-top: px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+}
+
+.button-donate-upgrade {
+    /* display: flex; */
+    width: 200px;
+}
+
+.button-donate {
+    /* display: flex; */
+    width: 100px;
 }

@@ -21,6 +21,7 @@
 }
 
 body {
+    color: #858688;
     font-family: "Titillium Web", sans-serif;
 }
 
@@ -274,27 +275,280 @@ button {
     position: relative;
     font-size: 20px;
 }
+
+/* VITYA */
+footer {
+    display: block;
+}
 footer a:hover{
     transform: scale(1.05);
     color: tomato;
 }
-.privacy {
-    text-align: right
+.sponsors-list {
+    text-align: right;
+    padding-bottom: 16vh;
+    background: #ffffff;
+}
+.sponsors-container {
+    width: 999px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 1px;
+}
+.spon-p {
+    text-align: right;
+    font-size: 18px;
+    position: relative;
+    top: 15px;
+    right: 22px;
+    letter-spacing: -0.32px;
+}
+.sponsors-imagies {
+    position: relative;
+    top: 12px;
+    left: 1px;
+}
+.sponsors-container::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 72.9vw;
+    background: #b9b9b9;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+}
+.sponsors-container::after {
+    content: "";
+    display: block;
+    height: 47.1vh;
+    width: 1px;
+    background: #b9b9b9;
+    position: absolute;
+    right: -1px;
+    top: 0;
+}
+.sponsors-imagies img:nth-of-type(1) {
+    position: relative;
+    right: -60px;
+}
+.sponsors-imagies img:nth-of-type(2) {
+    position: relative;
+    right: -58px;
+}
+.sponsors-imagies img:nth-of-type(3) {
+    position: relative;
+    right: -53px;
+}
+.sponsors-imagies img:nth-of-type(4) {
+    position: relative;
+    right: -50px;
+}
+.sponsors-imagies img:nth-of-type(5) {
+    position: relative;
+    right: -46px;
+}
+.sponsors-imagies img:nth-of-type(6) {
+    position: relative;
+    right: -43px;
+}
+.sponsors-imagies img:nth-of-type(7) {
+    position: relative;
+    right: -39px;
+}
+.footer-container {
+    height: 332px;
+    position: relative;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr) repeat(1, 600px) repeat(4, 1fr);
+    grid-template-rows: 230px 25px 25px;
+    grid-template-areas:
+        ". . cont cont cont cont . lists . . . ."
+        ". soc soc soc soc soc soc soc . . . ."
+        ". copy copy copy copy copy copy . . . . .";
 }
 .contacts a{
-    color: black;
+    color: #535353;
     font-weight: bold;
 }
-.footer-menu h1{
-    color: black;
-    font-weight: bold; 
+.contacts {
+    position: relative;
+    top: -7px;
+    left: 1.85vw;
+    font-size: 14px;
+    letter-spacing: 0.17px;
+    color: #5c5c5c;
+    grid-area: cont;
 }
-.contacts{
+.contacts::before {
+    content: "";
+    display: block;
     position: absolute;
-    left: 2vw;
-    background: white;
-    border-left: 1px solid gray;
-    padding: 0px 20px;
+    left: -20px;
+    top: 7px;
+    height: 131px;
+    width: 1px;
+    background: #b9b9b9;
+}
+.footer-menu{
+    text-align: right;
+    grid-area: lists;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: "abt abt abt abt abt leg leg leg leg nm nm nm";
+}
+.footer-menu h2 {
+    letter-spacing: 0.9px;
+    font-size: 17px;
+}
+.footer-menu ul {
+    list-style-type: none;
+    text-align: right;
+    font-size: 14px;
+    letter-spacing: -0.1px;
+    line-height: 23px;
+    word-spacing: 4px;
+    position: relative;
+    top: 22px;
+    right: 1px;
+}
+.footer-menu li::after {
+    content: " •";
+}
+.company {
+    grid-area: abt;
+    position: relative;
+    top: -7px;
+    right: 5.5vw;
+}
+.company::after {
+    content: "";
+    display: block;
+    height: 315px;
+    width: 1px;
+    position: absolute;
+    background: #b9b9b9;
+    right: -1.35vw;
+    top: 3px;
+}
+.legal {
+    grid-area: leg;
+    position: relative;
+    top: -7px;
+    right: 55px;
+}
+.neuronmail {
+    grid-area: nm;
+    position: relative;
+    top: -7px;
+    right: 3px;
+}
+.line::before,
+.line::after {
+    z-index: -1;
+}
+h2 {
+    color: #858688;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin: 0;
+}
+.social {
+    grid-area: soc;
+    position: relative;
+    left: 7.01vw;
+    font-size: 12px;
+    top: 1px;
+}
+.social a{
+    text-decoration: underline;
+    text-decoration-color: #d6d6d6;
+}
+.social :nth-child(n+2) {
+    margin-left: 19px;
+    letter-spacing: 0.1px;
+}
+.social :nth-child(n+2)::before {
+    content: " / ";
+    position: relative;
+    right: 10px;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.copyright {
+    grid-area: copy;
+    position: relative;
+    font-size: 13px;
+    left: 6.98vw;
+    top: 6px;
+}
+.copyright i {
+    font-size: 7px;
+    position: relative;
+    top: -2px;
+}
+.far {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.fa-copyright:before {
+    content: "©";
+}
+.copyright span {
+    font-family: TW-B;
+    letter-spacing: -0.4px;
+    word-spacing: -0.5px;
+}
+
+@media(max-width: 1080px) {
+    .sponsors-container {
+        width: inherit;
+    }
+    .spon-p {
+        text-align: center;
+        font-size: 18px;
+    }
+    .sponsors-imagies {
+        display: grid;
+        grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+        justify-items: center;
+    }
+    .footer-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            "cont lists lists"
+            "soc soc soc"
+            "copy copy copy";
+        justify-items: center;
+    }
+    .line::after,
+    .line::before {
+        display: none;
+    }
+    .footer-menu {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "abt leg nm";
+        grid-gap: 20px;
+    }
+    .company, .legal, .neuronmail{
+        left: 0;
+        right: 0;
+    }
+    .social, .copyright {
+        left: 0;
+    }
 }
 
 

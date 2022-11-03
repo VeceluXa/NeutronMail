@@ -226,23 +226,23 @@ button {
     z-index: 2;
     /* background: url(assets/header-background-image.png) center; */
     background-repeat: no-repeat;
-    height: 66vh;
-    padding-bottom: 70px;
+    height: 60vh;
+    padding-bottom: 9vh;
     display: flex;
     /* justify-content: center; */
-    margin-left: 500px;
+    margin-left: 37vh;
 }
 .header-layout {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 116px;
+    margin-top: 18vh;
     margin-left: 1vh;
     color: #454545;
 }
 .header-layout h2 {
     font-size: 60px;
-    word-spacing: 1px;
+    word-spacing: 0vh;
     letter-spacing: 1.7px;
     color: #6F6F6E;
 }
@@ -260,8 +260,8 @@ button {
     background-position: -18px 29px;
     background-repeat: no-repeat;
     position: relative;
-    left: 3px;
-    top: 51px;
+    left: 0vh;
+    top: 5vh;
     display: flex;
     width: 602px;
     height: 70px;
@@ -647,7 +647,7 @@ h3 {
 .section-security {
     z-index: 2;
     position: relative;
-    /* bottom: 220px; */
+    bottom: 2vh; 
 }
 
 .section-security p {
@@ -666,11 +666,11 @@ h3 {
 }
 
 .list-features li {
-    margin: 50px;
+    margin: 6vh;
     margin-bottom: 0px;
     list-style-type: none;
-    width: 350px;
-    background-position: 0px 90px;
+    width: 350vh;
+    background-position: 0vh 12vh;
 }
 
 .list-features li p {
@@ -687,11 +687,11 @@ h3 {
     margin-top: 150px;
     margin-right: 50px;
     /* margin-right: 0px; */
-    padding-right: 50px;
+    padding-right: 10vh;
     border-right: 1px solid #B9B9B9;
     background-image: url(assets/encryption-icon.png);
     background-repeat: no-repeat;
-    background-position: 0px 0px;
+    background-position: 0vh 0vh;
 }
 
 .item-encryption .feature-heading {
@@ -741,8 +741,8 @@ h3 {
 .physical-security {
     border-right: 1px solid #B9B9B9;
     border-bottom: 1px solid #B9B9B9;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 5vh;
+    padding-top: 0vh;
     padding-left: 486px;
     width: 566px;
     text-align: right;
@@ -763,15 +763,15 @@ h3 {
 
 .section-security a {
     position: relative;
-    bottom: 30px;
+    bottom: 3vh;
     display: inline-block;
     font-size: 16px;
     color: #676767;
-    padding: 15px;
-    margin-left: 960px;
+    padding: 2vh;
+    margin-left: 127vh;
     background-color: white;
     border: 1px solid #B9B9B9;
-    border-radius: 50px;
+    border-radius: 50vh;
 }
 
 .section-security a:hover {
@@ -837,10 +837,10 @@ h3 {
 
 .slider {
     /* z-index: 4; */
-    margin-top: 55px;
+    margin-top: 10vh;
     position: relative;
-    width: 1000px;
-    height: 150px;
+    width: 143vh;
+    height: 0vh;
     margin-left: 370px;
     display: inline-flex;
 }
@@ -905,13 +905,13 @@ h3 {
     text-align: right;
     z-index: 2;
     width: 100%;
-    height: 300px;
+    height: 17vh;
     padding-top: 300px;
-    padding-bottom: 100px;
+    padding-bottom: 50vh;
     background-image: url(assets/laptop.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-position-x: 1000px;
+    background-position-x: 92vh;
     
 }
 
@@ -955,9 +955,9 @@ h3 {
 
 .section-donate {
     position: relative;
-    bottom: 150px;
-    border-top: 1px solid #B9B9B9;
-    margin-left: 400px;
+    bottom: 0vh;
+    border-top: 1vh solid #B9B9B9;
+    margin-left: 0vh;
 }
 
 .donate-wrap {

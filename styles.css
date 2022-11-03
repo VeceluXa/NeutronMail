@@ -337,32 +337,45 @@ footer a:hover{
     right: -1px;
     top: 0;
 }
-.sponsors-imagies img:nth-of-type(1) {
-    position: relative;
+.sponsors-imagies li{
+    margin: 20px;
+    height: 60px;
+    display: inline-flex;
+    background-position: center;
+}
+.sponsors-imagies-1 {
+    background-image: url(assets/helper-venture.png);
+    width: 80px;
     right: -60px;
 }
-.sponsors-imagies img:nth-of-type(2) {
-    position: relative;
+.sponsors-imagies-2 {
+    background-image: url(assets/helper-deltalis.png);
+    width: 70px;
     right: -58px;
 }
-.sponsors-imagies img:nth-of-type(3) {
-    position: relative;
+.sponsors-imagies-3 {
+    background-image: url(assets/helper-fongit.png);
+    width: 110px;
     right: -53px;
 }
-.sponsors-imagies img:nth-of-type(4) {
-    position: relative;
+.sponsors-imagies-4 {
+    background-image: url(assets/helper-quovadis.png);
+    width: 118px;
     right: -50px;
 }
-.sponsors-imagies img:nth-of-type(5) {
-    position: relative;
+.sponsors-imagies-5 {
+    background-image: url(assets/helper-cyber.png);
+    width: 60px;
     right: -46px;
 }
-.sponsors-imagies img:nth-of-type(6) {
-    position: relative;
+.sponsors-imagies-6 {
+    background-image: url(assets/helper-radware.png);
+    width: 130px;
     right: -43px;
 }
-.sponsors-imagies img:nth-of-type(7) {
-    position: relative;
+.sponsors-imagies-7 {
+    background-image: url(assets/helper-ipmax.png);
+    width: 60px;
     right: -39px;
 }
 .footer-container {

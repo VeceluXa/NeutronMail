@@ -25,6 +25,8 @@
 body {
     color: #858688;
     font-family: "Titillium Web", sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 a {
@@ -648,6 +650,7 @@ h3 {
 }
 
 .section-companies {
+    position: relative;
     z-index: 3;
 }
 
@@ -704,11 +707,12 @@ h3 {
 }
 
 .slider {
+    /* z-index: 4; */
     margin-top: 55px;
     position: relative;
-    width: auto;
-    height: 30px;
-    margin-left: 50px;
+    width: 1000px;
+    height: 150px;
+    margin-left: 370px;
     display: inline-flex;
 }
 
@@ -755,10 +759,22 @@ h3 {
     margin-top: 10px;
 }
 
+.wrap {
+    position: absolute;
+    z-index: 1;
+    top: 1400px;
+    width: 100%;
+    overflow: hidden;
+    height: 2000px;
+    pointer-events: none;
+}
+
 .section-download {
+    position: relative;
+    bottom: 100px;
     justify-content:right;
     text-align: right;
-    z-index: 3;
+    z-index: 2;
     width: 100%;
     height: 300px;
     padding-top: 300px;
@@ -766,14 +782,19 @@ h3 {
     background-image: url(assets/laptop.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-position-x: 1000px;
     
 }
 
 .download-content {
-    margin-left: 500px;
-    margin-right: 800px;
+    margin-left: 650px;
+    margin-right: 650px;
     padding-bottom: 150px;
     /* width: 400px; */
+}
+
+.download-content h3 {
+    font-size: 36px;
 }
 
 .download-content p {
@@ -804,6 +825,8 @@ h3 {
 }
 
 .section-donate {
+    position: relative;
+    bottom: 150px;
     border-top: 1px solid #B9B9B9;
     margin-left: 400px;
 }
@@ -828,6 +851,8 @@ h3 {
 .donate-buttons {
     display: flex;
     margin: 30px;
+    margin-left: 100px;
+    height: 60px;
 }
 
 .button {
@@ -848,19 +873,22 @@ h3 {
 }
 
 .img-button {
-    margin-top: px;
-    margin: 5px;
+    /* margin-top: 0px;
+    margin: 5px; */
+    margin-left: 5px;
+    margin-right: 5px;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height: 25px;
 }
 
 .button-donate-upgrade {
-    /* display: flex; */
+    display: flex;
     width: 200px;
 }
 
 .button-donate {
-    /* display: flex; */
+    display: flex;
     width: 100px;
 }

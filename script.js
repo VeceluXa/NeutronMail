@@ -9,6 +9,8 @@ var button1 = list[0]
 var button2 = list[1]
 var button3 = list[2]
 
+button1.style.backgroundColor = "black"
+
 button1.addEventListener("click", e1=>{
     text.innerHTML = texts[0]
     author.innerHTML = "— " + authors[0]

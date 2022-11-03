@@ -307,6 +307,10 @@ footer a:hover{
     position: relative;
     top: 12px;
     left: 1px;
+    align-content: center;
+}
+.sponsors-imagies :hover{
+    box-shadow: 0 0 10px gray;
 }
 .sponsors-container::before {
     content: "";

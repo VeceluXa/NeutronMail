@@ -244,7 +244,9 @@ button {
 }
 
 .registration-layout {
-    background: url(assets/registartion-layout.png);
+    
+    /* background-; */
+    /* background-position: center bottom; */
     background-position: -18px 29px;
     background-repeat: no-repeat;
     position: relative;
@@ -361,6 +363,18 @@ button {
     justify-content: right;
     width: 20px;
     margin-left: 400px;
+}
+
+.button-shadow-wrap {
+    background: url(assets/button-shadow.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 912px;
+    height: 500px;
+    top: 350px;
+    right: 490px;
+    /* height: 0px; */
+    /* box-shadow: 0 2px 20px 12px #86aaf8; */
 }
 
 /* VITYA */

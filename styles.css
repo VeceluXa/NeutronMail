@@ -1,12 +1,12 @@
 @font-face {
-    font-family: "Titillium Web";
-    src: url("../assets/fonts/Titillium/TitilliumWeb-Bold.ttf");
-    font-weight: 700;
-  }
+  font-family: "Titillium Web";
+  src: url("assets/fonts/Titillium/TitilliumWeb-Bold.ttf");
+  font-weight: 700;
+}
   
 @font-face {
   font-family: "Titillium Web";
-  src: url("../assets/fonts/Titillium/TitilliumWeb-Regular.ttf");
+  src: url("assets/fonts/Titillium/TitilliumWeb-Regular.ttf");
   font-weight: 400;
 }
   
@@ -25,6 +25,7 @@
 body {
     color: #858688;
     font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -482,6 +483,8 @@ footer a:hover{
     letter-spacing: 0.17px;
     color: #5c5c5c;
     grid-area: cont;
+    padding-left: 20px;
+    border-left: 1px solid #B9B9B9;
 }
 .contacts::before {
     content: "";
@@ -503,6 +506,10 @@ footer a:hover{
 .footer-menu h2 {
     letter-spacing: 0.9px;
     font-size: 17px;
+    font-weight: 700;
+}
+.footer-menu a {
+    color: #5C5C5C;
 }
 .footer-menu ul {
     list-style-type: none;

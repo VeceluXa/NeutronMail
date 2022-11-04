@@ -377,6 +377,10 @@ button {
     /* box-shadow: 0 2px 20px 12px #86aaf8; */
 }
 
+
+
+
+
 /* VITYA */
 footer {
     display: block;
@@ -637,44 +641,6 @@ h2 {
     word-spacing: -0.5px;
 }
 
-@media(max-width: 1080px) {
-    .sponsors-container {
-        width: inherit;
-    }
-    .spon-p {
-        text-align: center;
-        font-size: 18px;
-    }
-    .sponsors-imagies {
-        display: grid;
-        grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-        justify-items: center;
-    }
-    .footer-container {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-areas:
-            "cont lists lists"
-            "soc soc soc"
-            "copy copy copy";
-        justify-items: center;
-    }
-    .line::after,
-    .line::before {
-        display: none;
-    }
-    .footer-menu {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-areas: "abt leg nm";
-        grid-gap: 20px;
-    }
-    .company, .legal, .neuronmail{
-        left: 0;
-        right: 0;
-    }
-    .social, .copyright {
-        left: 0;
-    }
-}
 
 
 

@@ -28,6 +28,7 @@ body {
     font-weight: 400;
     margin-left: 50px;
     margin-right: 50px;
+    width: 1805px;
 }
 
 a {
@@ -768,9 +769,9 @@ h3 {
     border-right: 1px solid #B9B9B9;
     border-bottom: 1px solid #B9B9B9;
     padding-bottom: 50px;
-    padding-top: 50px;
-    padding-left: 486px;
-    width: 566px;
+    padding-top: 100px;
+    padding-left: 402px;
+    width: 650px;
     text-align: right;
     padding-right: 50px;
 }
@@ -780,7 +781,7 @@ h3 {
 }
 
 .physical-security p {
-    font-size: 17px;
+    font-size: 24px;
 }
 
 .physical-security p span {
@@ -918,7 +919,7 @@ h3 {
     position: absolute;
     z-index: 0;
     top: 1400px;
-    width: 100%;
+    width: 1800px;
     overflow: hidden;
     height: 2000px;
     pointer-events: none;

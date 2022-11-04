@@ -356,6 +356,7 @@ button {
 
 .socials-buttons {
     /* display: inline-flex; */
+    margin-top: 150px;
     justify-content: right;
     width: 20px;
     margin-left: 400px;

@@ -49,7 +49,6 @@ header a:hover{
 .header-navigation {
     margin-top: 18.8px;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
     grid-auto-rows: minmax(56px, auto);
     grid-template-areas: ". hd hd . nav nav nav nav nav btns btns btns"
         ". lang lang lang lang lang lang lang lang lang lang lang";

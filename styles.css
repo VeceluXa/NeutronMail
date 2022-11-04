@@ -264,9 +264,9 @@ button {
     margin: 0 auto;
 }
 
-/* .registration-buttons a:hover {
-    box-shadow: 0 2px 4px 1px #666d9f, 0 10px 12px 2px #8a9bc2;
-} */
+.registration-buttons a:hover {
+    box-shadow: 0 2px 4px 1px #666d9f, 0 10px    12px 2px #8a9bc2;
+}
 
 .create-account-button {
     display: flex;
